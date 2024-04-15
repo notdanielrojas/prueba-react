@@ -49,7 +49,8 @@ const MiApi = () => {
   };
 
   const sortSpells = () => {
-    const sortedSpells = [...filterSpells()].sort((a, b) => {
+    const filteredSpells = filterSpells(); // Filtra los hechizos una vez y almacena el resultado
+    const sortedSpells = [...filteredSpells].sort((a, b) => {
       const nameA = a.name.toLowerCase();
       const nameB = b.name.toLowerCase();
       return sortOrder === "asc"
