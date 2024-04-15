@@ -158,16 +158,16 @@ const MiApi = () => {
     switch (category) {
       // Evalúa la categoría y asigna una clase de badge correspondiente
       case "Beginner":
-        badgeClass = "badge bg-success"; // Clase para la categoría "Principiante"
+        badgeClass = "badge bg-success"; // Clase para la categoría "Principiantes"
         break;
       case "Intermediate":
-        badgeClass = "badge bg-warning"; // Clase para la categoría "Principiante"
+        badgeClass = "badge bg-warning"; // Clase para la categoría "Intermedios"
         break;
       case "Advanced":
-        badgeClass = "badge bg-primary"; // Clase para la categoría "Principiante"
+        badgeClass = "badge bg-primary"; // Clase para la categoría "Avanzados"
         break;
       case "Forbidden":
-        badgeClass = "badge bg-danger"; // Clase para la categoría "Principiante"
+        badgeClass = "badge bg-danger"; // Clase para la categoría "Prohibidos"
         break;
       default:
         badgeClass = "badge bg-primary"; // Clase predeterminada
